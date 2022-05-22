@@ -50,8 +50,12 @@ function nextPage() {
         image.src  = imag
         document.querySelector('.pokemon').appendChild(image)
 
-
+        
     }
+
+    setTimeout(function(){
+        window.location.reload(1);
+     }, 6000);
 }
 
 
